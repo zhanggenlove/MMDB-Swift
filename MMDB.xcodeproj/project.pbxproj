@@ -248,9 +248,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D716CB4C1C23A58700D89B5C /* Build configuration list for PBXNativeTarget "MMDB-iOS" */;
 			buildPhases = (
+				D716CB441C23A58700D89B5C /* Headers */,
 				D716CB421C23A58700D89B5C /* Sources */,
 				D716CB431C23A58700D89B5C /* Frameworks */,
-				D716CB441C23A58700D89B5C /* Headers */,
 				D716CB451C23A58700D89B5C /* Resources */,
 			);
 			buildRules = (
@@ -266,9 +266,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D716CB591C23A5DC00D89B5C /* Build configuration list for PBXNativeTarget "MMDB-OSX" */;
 			buildPhases = (
+				D716CB511C23A5DC00D89B5C /* Headers */,
 				D716CB4F1C23A5DC00D89B5C /* Sources */,
 				D716CB501C23A5DC00D89B5C /* Frameworks */,
-				D716CB511C23A5DC00D89B5C /* Headers */,
 				D716CB521C23A5DC00D89B5C /* Resources */,
 			);
 			buildRules = (
@@ -287,7 +287,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = lexrus.com;
 				TargetAttributes = {
 					366F5FE31F052F7F00DE3883 = {
@@ -426,7 +426,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tests/MMDBTests/Info-iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lexrus.MMDBTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +444,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tests/MMDBTests/Info-iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lexrus.MMDBTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +508,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -565,6 +566,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -606,7 +608,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lexrus.MMDB-iOS";
 				PRODUCT_NAME = MMDB;
@@ -632,7 +634,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lexrus.MMDB-iOS";
 				PRODUCT_NAME = MMDB;
